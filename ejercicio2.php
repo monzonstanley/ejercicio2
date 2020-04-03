@@ -40,54 +40,54 @@ if($_POST['cambiar_divisas']){
     $dolar_cordoba = $_POST['a4'];
     
     
-    $euro_quetzal = 8.32;
-    $euro_lempira = 26.92;
-    $euro_dolar = 1.08;
-    $euro_cordoba = 36.79;
+    $euro_quetzal = $_POST['a5'];
+    $euro_lempira =$_POST['a6'];
+    $euro_dolar =$_POST['a7'];
+    $euro_cordoba = $_POST['a8'];
     
-    $quetzal_dolar = 0.13;
-    $quetzal_lempira = 3.24;
-    $quetzal_euro = 0.12;
-    $quetzal_cordoba = 4.42;
+    $quetzal_dolar =$_POST['a9'];
+    $quetzal_lempira =$_POST['a10'];
+    $quetzal_euro = $_POST['a11'];
+    $quetzal_cordoba = $_POST['a12'];
     
-    $lempira_dolar = 0.040;
-    $lempira_quetzal = 0.31;
-    $lempira_euro = 0.037;
-    $lempira_cordoba = 1.37;
+    $lempira_dolar =$_POST['a13'];
+    $lempira_quetzal =$_POST['a14'];
+    $lempira_euro =$_POST['a15'];
+    $lempira_cordoba =$_POST['a16'];
     
-    $cordoba_dolar = 0.029;
-    $cordoba_quetzal = 0.23;
-    $cordoba_lempira = 0.73;
-    $cordoba_euro = 0.027;
+    $cordoba_dolar =$_POST['a17'];
+    $cordoba_quetzal = $_POST['a18'];
+    $cordoba_lempira = $_POST['a19'];
+    $cordoba_euro =$_POST['a20'];
 
 
 
 }else{
-    $dolar_quetzal = 0.13;
-    $dolar_lempira = 0.040;
-    $dolar_euro = 1.09;
-    $dolar_cordoba = 0.029;
+    $dolar_quetzal =$_POST['a21'];
+    $dolar_lempira =$_POST['a22'];
+    $dolar_euro =$_POST['a23'];
+    $dolar_cordoba =$_POST['a24'];
     
     
-    $euro_quetzal = 8.32;
-    $euro_lempira = 26.92;
-    $euro_dolar = 1.08;
-    $euro_cordoba = 36.79;
+    $euro_quetzal = $_POST['a25'];
+    $euro_lempira = $_POST['a26'];
+    $euro_dolar =$_POST['a27'];
+    $euro_cordoba = $_POST['a28'];
     
-    $quetzal_dolar = 0.13;
-    $quetzal_lempira = 3.24;
-    $quetzal_euro = 0.12;
-    $quetzal_cordoba = 4.42;
+    $quetzal_dolar =$_POST['a29'];
+    $quetzal_lempira =$_POST['a30'];
+    $quetzal_euro =$_POST['a31'];
+    $quetzal_cordoba =$_POST['a4'];
     
-    $lempira_dolar = 0.040;
-    $lempira_quetzal = 0.31;
-    $lempira_euro = 0.037;
-    $lempira_cordoba = 1.37;
+    $lempira_dolar =$_POST['a32'];
+    $lempira_quetzal =$_POST['a33'];
+    $lempira_euro =$_POST['a34'];
+    $lempira_cordoba =$_POST['a35'];
     
-    $cordoba_dolar = 0.029;
-    $cordoba_quetzal = 0.23;
-    $cordoba_lempira = 0.73;
-    $cordoba_euro = 0.027;
+    $cordoba_dolar =$_POST['a36'];
+    $cordoba_quetzal =$_POST['a37'];
+    $cordoba_lempira =$_POST['a38'];
+    $cordoba_euro =$_POST['a39'];
 }
 ?>
 <form>
