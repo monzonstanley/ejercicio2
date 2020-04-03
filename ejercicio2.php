@@ -26,6 +26,7 @@
  
 if($_POST['cambiar_divisas']){
     $dolar_quetzal = $_POST['a1'];
+	 <div class="texto">dolar a quetzal</div><input type="number" name="a1">
     $dolar_lempira = 0.040;
     $dolar_euro = 1.09;
     $dolar_cordoba = 0.029;
