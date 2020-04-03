@@ -22,6 +22,42 @@
 	   <div class="texto">dolar a lempira</div><input type="number" name="a2">
 	  <div class="texto">dolar euro</div><input type="number" name="a3">
 	 <div class="texto">dolar a cordoba</div><input type="number" name="a4">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a5">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a6">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a7">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a8">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a9">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a10">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a11">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a12">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a13">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a14">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a15">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a16">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a17">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a18">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a19">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a20">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a21">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a22">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a23">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a24">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a25">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a26">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a27">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a28">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a29">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a30">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a31">
+	    <div class="texto">dolar a cordoba</div><input type="number" name="a32">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a33">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a34">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a35">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a36">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a37">
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a38">
+	  
+	  <div class="texto">dolar a cordoba</div><input type="number" name="a39">
   </div>
 </div>
 <input type="submit" value="cambiar_divisas" name=cambiar_divisas>
