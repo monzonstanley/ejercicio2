@@ -22,42 +22,22 @@
 	   <div class="texto">dolar a lempira</div><input type="number" name="a2">
 	  <div class="texto">dolar euro</div><input type="number" name="a3">
 	 <div class="texto">dolar a cordoba</div><input type="number" name="a4">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a5">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a6">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a7">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a8">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a9">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a10">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a11">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a12">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a13">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a14">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a15">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a16">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a17">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a18">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a19">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a20">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a21">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a22">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a23">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a24">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a25">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a26">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a27">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a28">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a29">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a30">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a31">
-	    <div class="texto">dolar a cordoba</div><input type="number" name="a32">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a33">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a34">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a35">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a36">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a37">
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a38">
-	  
-	  <div class="texto">dolar a cordoba</div><input type="number" name="a39">
+	  <div class="texto"></div><input type="number" name="a5">
+	  <div class="texto"></div><input type="number" name="a6">
+	  <div class="texto"></div><input type="number" name="a7">
+	  <div class="texto"></div><input type="number" name="a8">
+	  <div class="texto"></div><input type="number" name="a9">
+	  <div class="texto"></div><input type="number" name="a10">
+	  <div class="texto"></div><input type="number" name="a11">
+	  <div class="texto"></div><input type="number" name="a12">
+	  <div class="texto"></div><input type="number" name="a13">
+	  <div class="texto"></div><input type="number" name="a14">
+	  <div class="texto"></div><input type="number" name="a15">
+	  <div class="texto"></div><input type="number" name="a16">
+	  <div class="texto"></div><input type="number" name="a17">
+	  <div class="texto"></div><input type="number" name="a18">
+	  <div class="texto"></div><input type="number" name="a19">
+	  <div class="texto"></div><input type="number" name="a20">
   </div>
 </div>
 <input type="submit" value="cambiar_divisas" name=cambiar_divisas>
@@ -65,11 +45,20 @@
 <?php
  
 if($_POST['cambiar_divisas']){
-	
-    $dolar_quetzal = $_POST['a1'];
-	 
+	if($_POST['a1'])//vas a poner  if($_POST['a1 o a2 o a3'])
+    {
+        $dolar_quetzal = $_POST['a1']; 
+    }
+	else{
+        $dolar_quetzal = 0.13;
+    }
+    //poner if($_POST) aca como esta alla arriba y encerrar la linea 56 en corchetes
     $dolar_lempira =$_POST['a2'];
-	 
+     //poner un else y abrir llaves {}, dentro de las llaves ANDATE A LA LINEA 88 DONDE ESTA EL ELSE
+     // Y ANDATE A LA VARIABLE QUE CORRESPONDA, CORTALA Y PONELA ACA, EJEMPLO ACA PONDRAS LA VARIABLE DOLAR_LEMPIRA PERO
+     //PERO CON EL OTRO VALOR =0.55
+     
+
     $dolar_euro = $_POST['a3'];
 	
 	   
@@ -97,33 +86,33 @@ if($_POST['cambiar_divisas']){
     $cordoba_euro =$_POST['a20'];
 
 
-
+	///HASTA ACA LOS CAMBIOS
 }else{
-    $dolar_quetzal =$_POST['a21'];
-    $dolar_lempira =$_POST['a22'];
-    $dolar_euro =$_POST['a23'];
-    $dolar_cordoba =$_POST['a24'];
+    
+    $dolar_lempira = 0.040;
+    $dolar_euro = 1.09;
+    $dolar_cordoba = 0.029;
     
     
-    $euro_quetzal = $_POST['a25'];
-    $euro_lempira = $_POST['a26'];
-    $euro_dolar =$_POST['a27'];
-    $euro_cordoba = $_POST['a28'];
+    $euro_quetzal = 8.32;
+    $euro_lempira = 26.92;
+    $euro_dolar = 1.08;
+    $euro_cordoba = 36.79;
     
-    $quetzal_dolar =$_POST['a29'];
-    $quetzal_lempira =$_POST['a30'];
-    $quetzal_euro =$_POST['a31'];
-    $quetzal_cordoba =$_POST['a4'];
+    $quetzal_dolar = 0.13;
+    $quetzal_lempira = 3.24;
+    $quetzal_euro = 0.12;
+    $quetzal_cordoba = 4.42;
     
-    $lempira_dolar =$_POST['a32'];
-    $lempira_quetzal =$_POST['a33'];
-    $lempira_euro =$_POST['a34'];
-    $lempira_cordoba =$_POST['a35'];
+    $lempira_dolar = 0.040;
+    $lempira_quetzal = 0.31;
+    $lempira_euro = 0.037;
+    $lempira_cordoba = 1.37;
     
-    $cordoba_dolar =$_POST['a36'];
-    $cordoba_quetzal =$_POST['a37'];
-    $cordoba_lempira =$_POST['a38'];
-    $cordoba_euro =$_POST['a39'];
+    $cordoba_dolar = 0.029;
+    $cordoba_quetzal = 0.23;
+    $cordoba_lempira = 0.73;
+    $cordoba_euro = 0.027;
 }
 ?>
 <form>
@@ -146,6 +135,3 @@ if($_POST['cambiar_divisas']){
     <hr>
  
 </form>
-
-
-
