@@ -65,7 +65,7 @@ if($_POST['cambiar_divisas']){
      // Y ANDATE A LA VARIABLE QUE CORRESPONDA, CORTALA Y PONELA ACA, EJEMPLO ACA PONDRAS LA VARIABLE DOLAR_LEMPIRA PERO
      //PERO CON EL OTRO VALOR =0.55
      
-if($_POST['a1'])
+if($_POST['a3'])
     {
         $dolar_euro = $_POST['a3'];
     }
@@ -74,17 +74,70 @@ if($_POST['a1'])
     }
     
 	
-	   
+	if($_POST['a4'])
+    {   
     $dolar_cordoba = $_POST['a4'];
-    
-    
+     }
+	else{
+		$dolar_cordoba = 0.029;
+		  }
+     
+	
+	
+	if($_POST['a5'])
+    {   
     $euro_quetzal = $_POST['a5'];
+		    }
+	else{
+		 $euro_quetzal = 8.32;
+		  }
+	
+	
+	if($_POST['a6'])
+    {   
     $euro_lempira =$_POST['a6'];
+	  }
+	else{
+		 $euro_lempira = 26.92;
+		  }	
+		
+	if($_POST['a7'])
+    {   	
     $euro_dolar =$_POST['a7'];
+	  }
+	else{
+		  $euro_dolar = 1.08;
+		  }	
+		
+		
+		
+	if($_POST['a8'])
+    {   	
     $euro_cordoba = $_POST['a8'];
-    
+		  }
+	else{
+		   $euro_cordoba = 36.79;
+		  }
+		
+    if($_POST['a9'])
+    {   
     $quetzal_dolar =$_POST['a9'];
+	    	  }
+	else{
+		      $quetzal_dolar = 0.13;
+		  }
+	    
+	    
+	   if($_POST['a10'])
+    {    
     $quetzal_lempira =$_POST['a10'];
+		       	  }
+	else{
+		          $quetzal_lempira = 3.24;
+		  }
+	    
+		   
+		   
     $quetzal_euro = $_POST['a11'];
     $quetzal_cordoba = $_POST['a12'];
     
