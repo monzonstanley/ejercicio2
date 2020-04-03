@@ -18,6 +18,11 @@
 <div id="global">
   <div id="mensajes">
     <div class="texto">dolar a quetzal</div><input type="number" name="a1">
+	   <div class="texto">dolar a quetzal</div><input type="number" name="a1">
+	   <div class="texto">dolar a quetzal</div><input type="number" name="a1">
+	   <div class="texto">dolar a quetzal</div><input type="number" name="a1">
+	   <div class="texto">dolar a quetzal</div><input type="number" name="a1">
+	  aqui CREA TODAS LAS CONVERSIONES DE LA LINEA 33 HASTA LA 58, PONELE DOLAR A QUETZAL SEGUN CORRESPONDA, CAMBIALES LOS NAMES
   </div>
 </div>
 <input type="submit" value="cambiar_divisas" name=cambiar_divisas>
@@ -26,7 +31,7 @@
  
 if($_POST['cambiar_divisas']){
     $dolar_quetzal = $_POST['a1'];
-	 <div class="texto">dolar a quetzal</div><input type="number" name="a1">
+	
     $dolar_lempira = 0.040;
     $dolar_euro = 1.09;
     $dolar_cordoba = 0.029;
