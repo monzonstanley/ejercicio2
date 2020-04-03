@@ -53,13 +53,26 @@ if($_POST['cambiar_divisas']){
         $dolar_quetzal = 0.13;
     }
     //poner if($_POST) aca como esta alla arriba y encerrar la linea 56 en corchetes
-    $dolar_lempira =$_POST['a2'];
+    if($_POST['a2'])
+    {
+        $dolar_lempira =$_POST['a2'];
+    }
+	else{
+        $dolar_lempira = 0.040;
+    }
+	
      //poner un else y abrir llaves {}, dentro de las llaves ANDATE A LA LINEA 88 DONDE ESTA EL ELSE
      // Y ANDATE A LA VARIABLE QUE CORRESPONDA, CORTALA Y PONELA ACA, EJEMPLO ACA PONDRAS LA VARIABLE DOLAR_LEMPIRA PERO
      //PERO CON EL OTRO VALOR =0.55
      
-
-    $dolar_euro = $_POST['a3'];
+if($_POST['a1'])
+    {
+        $dolar_euro = $_POST['a3'];
+    }
+	else{
+       $dolar_euro = 1.09;
+    }
+    
 	
 	   
     $dolar_cordoba = $_POST['a4'];
@@ -89,8 +102,8 @@ if($_POST['cambiar_divisas']){
 	///HASTA ACA LOS CAMBIOS
 }else{
     
-    $dolar_lempira = 0.040;
-    $dolar_euro = 1.09;
+    
+    
     $dolar_cordoba = 0.029;
     
     
